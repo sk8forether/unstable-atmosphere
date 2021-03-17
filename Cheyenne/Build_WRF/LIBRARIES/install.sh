@@ -2,9 +2,9 @@
 
 # Script for installing the libraries needed before WRF and WPS compile
 
-cd ~tg848734/WRF_Benchmarking/Docker-WRF-3.8.1-Fitch/Stampede2/Build_WRF/LIBRARIES
+cd ~$USER/Build_WRF/LIBRARIES
 
-export DIR=~tg848734/WRF_Benchmarking/Docker-WRF-3.8.1-Fitch/Stampede2/Build_WRF/LIBRARIES
+export DIR=~$USER/Build_WRF/LIBRARIES
 export CC=gcc
 export CXX=g++
 export FC=gfortran
